@@ -14,3 +14,70 @@ p{
 .text {
   color: blue;
 }
+.color-red{
+  color: red;
+}
+.coloe-green{
+  color: green;
+}
+.background-orangered{
+
+  background-color: orangered;
+}
+.coloe-greenbackground-oreangred{
+  font-weight: bold;
+}
+#first.bold{
+  font-weight: bold;
+}
+div.background-orangered{
+  font-weight: bold;
+}
+header .text{
+  font-size: small;
+}
+header div .text{ 
+  font-size: smaller;
+}
+
+a[href]{
+  color: pink;
+}
+a[href="http://exampel.com"]{
+  color: blue;
+}
+a[href*="exampel"]{
+  color: red;
+}
+a[href$="org"]{
+  color: chartreuse;
+  background-color: black;
+}li span{
+  background-color: aqua;
+}
+li.item ~ span  {
+  background-color: yellow;
+}
+li:hover {
+background-color: black;
+}
+li:hover a {
+  color: white;
+}
+
+ul li:first-child a {
+  color: green;
+}
+li::before {
+  content : "befor";
+  color: black;
+  font-size: x-large;
+}
+li::after {
+  content:"after";
+  color: chartreuse;
+   font-size:xx-large;
+}
+p::first-line {
+  font-weight: bold;
+}

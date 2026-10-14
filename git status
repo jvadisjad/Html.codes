@@ -1,0 +1,73 @@
+[33mcommit 78e5a5d4132422c47f194520fbbb6bc90af98e26[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 183c26e 52aafb3
+Author: Sajad javadi <jvadisjad@gmail.com>
+Date:   Mon Oct 12 20:01:15 2026 +0330
+
+    Complete merge
+
+[33mcommit 183c26e79dcf4b6e42c7d7d3eed4bd5a7a0f75d3[m
+Author: Sajad javadi <jvadisjad@gmail.com>
+Date:   Mon Oct 12 19:44:24 2026 +0330
+
+    Keep only HTML and CSS files
+
+[33mcommit 52aafb34d0b4272064ade1e2e7ce476bd1204b8f[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Mon Oct 12 19:37:33 2026 +0330
+
+    Delete idandclass.html
+
+[33mcommit 3f179caa6e534f4f4a7eb7fd30a6c56959a9cb7f[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Mon Oct 12 19:37:18 2026 +0330
+
+    Delete divspan.html
+
+[33mcommit f5e08ea1c3e03865912c4f1ffb68e23d0fc1411e[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Mon Oct 12 19:36:58 2026 +0330
+
+    Delete about.html
+
+[33mcommit 1e7e1d4d594dea3d2b61d3a1968c829b6fefd46b[m
+Merge: 5076e49 6270920
+Author: Sajad javadi <jvadisjad@gmail.com>
+Date:   Mon Oct 12 19:26:46 2026 +0330
+
+    Resolve merge conflict
+
+[33mcommit 5076e49c061acb6bafe89623c4b0241ab7294de6[m
+Author: Sajad javadi <jvadisjad@gmail.com>
+Date:   Mon Oct 12 18:48:28 2026 +0330
+
+    Initial commit for cods
+
+[33mcommit 62709201e9a093b4c836beb25ff3015cb5ab1d7d[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Sat Oct 10 15:16:09 2026 +0330
+
+    Delete divspan.html
+
+[33mcommit 0c610e03f89283b894465692a8f57bb431b972ee[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Sat Oct 10 15:15:54 2026 +0330
+
+    Delete README.md
+
+[33mcommit dcdfc6d3fb46ff4ba9c67b72366aa88d47b5c437[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Sat Oct 10 15:05:32 2026 +0330
+
+    Add files via upload
+
+[33mcommit 74bbc1070270d158e52b68904a8e193581652c9a[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Fri Oct 9 14:38:36 2026 +0330
+
+    Add files via upload
+
+[33mcommit dfde7013b203aa30b5b160762b79ab317756c210[m
+Author: jvadisjad <jvadisjad@gmail.com>
+Date:   Fri Oct 9 14:23:26 2026 +0330
+
+    Initial commit
