@@ -81,3 +81,35 @@ li::after {
 p::first-line {
   font-weight: bold;
 }
+p{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+
+   
+
+    padding: 10px 20px 15px;
+    
+    border: 3px solid black;
+    border-style: solid;
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+.header * {
+  font-weight: bold;
+}
+header{
+   background-color: yellow;
+   width: 100%;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTA7-NtGbyUTfNkWfYkqk2Pz-xAFEGoWGNQ3sqjBL6g&s=10);
+   background-repeat: no-repeat;
+   background-position: 1px;
+   background-size:cover;
+   border: 20px dashed #fff;
+    box-sizing:border-box;
+    background-origin: 0 ;
+    padding: 20px;
+    background-attachment: fixed;
+}
