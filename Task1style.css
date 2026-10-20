@@ -1,0 +1,150 @@
+ body {
+    padding-top: 2rem;
+ }
+
+ div {
+    
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+ }
+/* 
+  .top-menu,
+ .image,
+ .header,
+ .sizes,
+ .Quantity-buy {
+    margin: 0 1.5rem 2rem 
+ } */
+.top-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 10px auto 10px max(calc((100% - 1100px) / 2), 0px);
+    padding: 20px; 
+    text-align: left;
+    width: fit-content;
+    
+}
+.product{
+    display: flex ;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 ;
+ 
+}
+.image{
+    width: 600px;
+    height: 580px;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+    width: 400px;
+    padding: 0;
+    
+}
+.header h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.header .price {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    box-sizing: border-box;
+}
+.sizes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.size-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.size-buttons button{
+    width: 48px;
+    height:  44px;
+    background-color: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.size-buttons button:hover {
+    color: wheat;
+    border-color: #222;
+    background-color: #222;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+
+.color-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding: 0;
+    gap: 10px;
+
+}
+.color-buttons button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.Cream {
+    background-color:#FFFDD0 ;
+}
