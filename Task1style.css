@@ -177,61 +177,52 @@ div {
     color: white;
 }
 
-/* Accordion sections */
+
+/* Accordion */
 
 .text-group {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
-.text1,
-.text2,
-.text3 {
-    display: flex;
-    flex-direction: column;
+.accordion {
     width: 100%;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
     border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1rem;
     box-sizing: border-box;
 }
 
-.text-title {
+.accordion summary {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
     cursor: pointer;
+    list-style: none;
 }
 
-.text-title p {
-    margin: 0;
-}
-
-.text-title span {
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.text-content {
+.accordion summary::-webkit-details-marker {
     display: none;
 }
 
-.text1.active .text-content,
-.text2.active .text-content,
-.text3.active .text-content {
-    display: block;
+.accordion summary::marker {
+    content: "";
 }
 
-.text1.active .text-title span,
-.text2.active .text-title span,
-.text3.active .text-title span {
+.accordion summary::after {
+    content: "⌄";
+    transition: transform 0.4s ease;
+}
+
+.accordion[open] summary::after {
     transform: rotate(180deg);
 }
 
-/* Active selections */
+.accordion p {
+    margin-top: 1rem;
+}
+
 
 .size-btn.active {
     background-color: #222;
